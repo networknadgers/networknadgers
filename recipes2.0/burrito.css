@@ -1,0 +1,25 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    background-color: rgb(48, 95, 150);
+}
+
+.header {
+    color: rgb(234, 218, 0);
+    text-align: center;
+}
+
+#back-button {
+    background-color: rgb(255, 153, 0);
+}
+
+.list {
+    color: white;
+    font-style:italic;
+}
+
+p {
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+}
