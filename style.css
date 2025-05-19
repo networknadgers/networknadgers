@@ -1,25 +1,27 @@
 * {
     box-sizing:border-box;
-}
-
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
     background-color: rgb(48, 95, 150);
 }
 
-.list {
-    text-align: center;
-}
-
 .header {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    width: auto;
+    font-weight: 100;
     text-align:center;
-    text-transform:uppercase;
+    border: 10px solid black;
 }
 
-p {
-    color: white;
+.list {
+    font-weight: 200;
+    text-align: center;
+    border: 10px solid black;
+    padding: 50px;
     background-color: yellow;
+}
+
+.burrito, .lasagna, .tacos {
+    margin:0;
+    padding:50px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 350;
 }
