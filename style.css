@@ -1,18 +1,27 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
-    background-color: rgb(48, 95, 150);
+* {
+    box-sizing:border-box;
 }
 
-.list {
-    text-align: center;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:100;
+    background-color: #fffffffd;
+    border:5px solid black;
 }
 
 .header {
-    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: auto;
+    text-align:center;
+    text-transform:uppercase;
 }
 
-p {
-    color: white;
-    background-color: yellow;
+.burrito, .lasagna, .tacos {
+    width: 200px;
+    height: 150px;
+    margin: 50px;;
+    padding:50px;
+    border: solid black 5px;
+    text-align:center;
+    background-color:crimson;
 }

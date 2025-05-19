@@ -11,6 +11,10 @@ body {
 
 #back-button {
     background-color: rgb(255, 153, 0);
+    border:ridge black 5px;
+    height:30px;
+    margin:auto; 
+    display:block;
 }
 
 .list {
