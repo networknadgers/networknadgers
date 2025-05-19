@@ -4,9 +4,12 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:100;
-    background-color: #fffffffd;
-    border:5px solid black;
+    font-weight: 500;
+    background-color: rgb(48, 95, 150);
+}
+
+.list {
+    text-align: center;
 }
 
 .header {
@@ -16,12 +19,7 @@ body {
     text-transform:uppercase;
 }
 
-.burrito, .lasagna, .tacos {
-    width: 200px;
-    height: 150px;
-    margin: 50px;;
-    padding:50px;
-    border: solid black 5px;
-    text-align:center;
-    background-color:crimson;
+p {
+    color: white;
+    background-color: yellow;
 }
